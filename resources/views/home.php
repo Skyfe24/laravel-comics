@@ -16,10 +16,47 @@
 </head>
 
 <body>
+<header>
+        <nav>
+            <div class="container flex justify-between" id="navbar">
+                <div class="logo"><a href><img src="../assets/img/dc-logo.png" alt="logo DC comics"></a> </div>
+
+                <div class="links flex justify-between row ">
+                    <ul>
+                        <li> <a href="{{ url('/')}}">  </a></li>
+                        <li> <a href="{{ url('/characters')}}"> CHARACTERS</a></li>
+                        <li> <a href="{{ url('/collectibles')}}">  COLLECTIBLES</a></li>
+                        <li> <a href="{{ url('/comics')}}"> COMICS</a></li>
+                        <li> <a href="{{ url('/fans')}}"> FANS</a></li>
+                        <li> <a href="{{ url('/games')}}"> GAMES</a></li>
+                        <li> <a href="{{ url('/movies')}}"> MOVIES</a></li>
+                        <li> <a href="{{ url('/news')}}"> NEWS</a></li>
+                        <li> <a href="{{ url('/tv)}}"> TV</a></li>
+                        <li> <a href="{{ url('/videos')}}"> VIDEOS</a></li>
+                        <li> <a href=""> SHOP</a></li>
+
+
+
+
+                    </ul>
+                    <div class="topnav">
+                    <a class="active" href="#home">Search</a>
+                    
+                    <input type="text" placeholder="Search..">
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+        </nav>
+    </header>
 
     <main class="bg-light">
         <div class="container">
-            <button class="btn btn-primary"> TEST </button>
+            
             <div class="row">
                 <div class="col-12">
                     <div class="min-vh-100 py-5 d-flex flex-column justify-content-center">
