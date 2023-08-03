@@ -20,7 +20,7 @@
 <header>
         <nav>
             <div class="container flex justify-between" id="navbar">
-                <div class="logo"><link rel="logo" href="{{asset('images/dc-logo.png')}}" type="image/png"> </div>
+                <div class="logo"><img src="logo" href="{{asset('images/dc-logo.png')}}" type="image/png"> </div>
 
                 <div class="links flex justify-between row ">
                     <ul>
