@@ -12,6 +12,7 @@
 
     <!-- Styles -->
     @vite('resources/js/app.js')
+    <link rel="logo" href="{{asset('images/dc-logo.png')}}" type="image/png">
 
 </head>
 
@@ -19,7 +20,7 @@
 <header>
         <nav>
             <div class="container flex justify-between" id="navbar">
-                <div class="logo"><a href><img src="../assets/img/dc-logo.png" alt="logo DC comics"></a> </div>
+                <div class="logo"><link rel="logo" href="{{asset('images/dc-logo.png')}}" type="image/png"> </div>
 
                 <div class="links flex justify-between row ">
                     <ul>
