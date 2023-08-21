@@ -25,8 +25,8 @@
                 <div class="links flex justify-between row ">
                     <ul>
                         <li> <a href="{{ url('/')}}">  </a></li>
-                        <li> <a href="{{ url('/characters')}}"> CHARACTERS</a></li>
-                        <li> <a href="{{ url('/collectibles')}}">  COLLECTIBLES</a></li>
+                        <li> <a href="{{ route('/characters')}}"> CHARACTERS</a></li>
+                        <li> <a href="{{ route('/collectibles')}}">  COLLECTIBLES</a></li>
                         <li> <a href="{{ url('/comics')}}"> COMICS</a></li>
                         <li> <a href="{{ url('/fans')}}"> FANS</a></li>
                         <li> <a href="{{ url('/games')}}"> GAMES</a></li>

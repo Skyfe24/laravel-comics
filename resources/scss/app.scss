@@ -1,3 +1,6 @@
+@use 'vars' as *;
+@use 'reset';
+
 @import '~bootstrap/scss/bootstrap';
 main{
     background-color: red;
@@ -6,6 +9,10 @@ main{
     max-width: 1290px;
     margin: 0 auto;
     height: 100px;
+}
+
+body{
+    font-size: $font;
 }
 
 h1 {
