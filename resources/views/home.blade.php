@@ -20,13 +20,13 @@
 <header>
         <nav>
             <div class="container flex justify-between" id="navbar">
-                <div class="logo"><img src="logo" href="{{asset('images/dc-logo.png')}}" type="image/png"> </div>
+                <div class="logo"><img src="{{asset('images/dc-logo.png')}}" alt="DC Logo" type="image/png"> </div>
 
                 <div class="links flex justify-between row ">
                     <ul>
                         <li> <a href="{{ url('/')}}">  </a></li>
-                        <li> <a href="{{ route('/characters')}}"> CHARACTERS</a></li>
-                        <li> <a href="{{ route('/collectibles')}}">  COLLECTIBLES</a></li>
+                        <li> <a href="{{ route('characters')}}"> CHARACTERS</a></li>
+                        <li> <a href="{{ route('collectibles')}}">  COLLECTIBLES</a></li>
                         <li> <a href="{{ url('/comics')}}"> COMICS</a></li>
                         <li> <a href="{{ url('/fans')}}"> FANS</a></li>
                         <li> <a href="{{ url('/games')}}"> GAMES</a></li>
@@ -61,7 +61,10 @@
                 <div class="col-12">
                     <div class="min-vh-100 py-5 d-flex flex-column justify-content-center">
                         <div class="logo_laravel">
-                            <img src="./images/jumbotron.jpg" alt="dc heroes jumbotron" class="jumbo">
+                            
+                            
+                            
+                            <div class="logo"><img src="{{asset('images/jumbotron.jpg')}}" alt="DC Logo" type="image/png" class="jumbo"> </div>
                         </div>
                         <h1 class="display-5 fw-bold">
                             Welcome to Laravel+Bootstrap 5
