@@ -32,8 +32,7 @@
                         <li> <a href="{{ url('/games')}}"> GAMES</a></li>
                         <li> <a href="{{ url('/movies')}}"> MOVIES</a></li>
                         <li> <a href="{{ url('/news')}}"> NEWS</a></li>
-                        <li> <a href="{{ url('/tv)}}"> TV</a></li>
-                        <li> <a href="{{ url('/videos')}}"> VIDEOS</a></li>
+                        
                         <li> <a href=""> SHOP</a></li>
 
 
